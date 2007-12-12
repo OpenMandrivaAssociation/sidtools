@@ -1,6 +1,6 @@
 %define name sidtools
 %define version 1.0.1
-%define release 6mdk
+%define release %mkrel 6
 
 
 Name: %{name}
