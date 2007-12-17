@@ -11,7 +11,6 @@ License: GPL
 Group: Sound
 Source: http://user.tninet.se/~uxm165t/%{name}-%{version}.tar.bz2
 URL: http://user.tninet.se/~uxm165t/sidtools.html
-BuildRoot: %{_tmppath}/%{name}-buildroot
 Requires: sidplay-base
 
 %description
