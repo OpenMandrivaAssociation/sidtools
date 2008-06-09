@@ -38,11 +38,15 @@ rm -rf $RPM_BUILD_ROOT
 rm -rf $RPM_BUILD_ROOT
 
 %post
+%if %mdkversion < 200900
 /sbin/ldconfig
+%endif
 %_install_info sidtools.info
 
 %postun
+%if %mdkversion < 200900
 /sbin/ldconfig
+%endif
 %_remove_install_info sidtools.info
 
 %files
