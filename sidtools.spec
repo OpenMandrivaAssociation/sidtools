@@ -1,6 +1,6 @@
 %define name sidtools
 %define version 1.0.1
-%define release %mkrel 9
+%define release %mkrel 10
 
 
 Name: %{name}
