@@ -1,7 +1,7 @@
 Name:    sidtools
 Summary: Creates and plays playlists for Sidplay
 Version: 1.0.1
-Release: 12
+Release: 13
 License: GPL
 Group: Sound
 Source: http://user.tninet.se/~uxm165t/%{name}-%{version}.tar.bz2
@@ -22,12 +22,6 @@ manually, with a text editor.
 
 %install
 %makeinstall
-
-%post
-%_install_info sidtools.info
-
-%postun
-%_remove_install_info sidtools.info
 
 %files
 %defattr(-,root,root)
@@ -81,22 +75,22 @@ manually, with a text editor.
 - rebuild
 
 * Fri May 04 2001 Lenny Cartier <lenny@mandrakesoft.com> 1.0.1-1mdk
-- updated by Götz Waschk <waschk@linux-mandrake.com> :
+- updated by GÃ¶tz Waschk <waschk@linux-mandrake.com> :
 	- 1.0.1
 	- remove obsoleted patch
 
-* Wed May  2 2001 Götz Waschk <waschk@linux-mandrake.com> 1.0-2mdk
+* Wed May  2 2001 GÃ¶tz Waschk <waschk@linux-mandrake.com> 1.0-2mdk
 - added default config file
 - added requirement for sidplay-base
 - cosmetics
 
 * Wed Oct 11 2000 Lenny Cartier <lenny@mandrakesoft.com> 1.0-1mdk
-- used srpm from Götz Waschk <waschk@linux-mandrake.com> :
-	Wed Oct 11 2000 Götz Waschk <waschk@linux-mandrake.com> 1.0-1mdk
+- used srpm from GÃ¶tz Waschk <waschk@linux-mandrake.com> :
+	Wed Oct 11 2000 GÃ¶tz Waschk <waschk@linux-mandrake.com> 1.0-1mdk
 	1.0
 
 * Thu Oct 05 2000 Lenny Cartier <lenny@mandrakesoft.com> 0.9.1-1mdk
-- used srpm from Götz Waschk :
-	Wed Oct  4 2000 Götz Waschk <waschk@linux-mandrake.com> 0.9.1-1mdk
+- used srpm from GÃ¶tz Waschk :
+	Wed Oct  4 2000 GÃ¶tz Waschk <waschk@linux-mandrake.com> 0.9.1-1mdk
 	- initial Mandrake build
 
