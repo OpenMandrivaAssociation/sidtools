@@ -1,15 +1,9 @@
-%define name sidtools
-%define version 1.0.1
-%define release: 12
-
-
-Name: %{name}
+Name:    sidtools
 Summary: Creates and plays playlists for Sidplay
-Version: %{version}
-Release: %{release}
+Version: 1.0.1
+Release: 12
 License: GPL
 Group: Sound
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Source: http://user.tninet.se/~uxm165t/%{name}-%{version}.tar.bz2
 URL: http://user.tninet.se/~uxm165t/sidtools.html
 Requires: sidplay-base
@@ -20,22 +14,14 @@ can be created automatically, via the search engine search2list, or
 manually, with a text editor.
 
 %prep
-rm -rf $RPM_BUILD_ROOT
-
 %setup -q
 
 %build
-
 %configure
-
 %make
 
 %install
-rm -rf $RPM_BUILD_ROOT
 %makeinstall
-
-%clean
-rm -rf $RPM_BUILD_ROOT
 
 %post
 %_install_info sidtools.info
