@@ -1,6 +1,6 @@
 %define name sidtools
 %define version 1.0.1
-%define release %mkrel 10
+%define release: 11
 
 
 Name: %{name}
@@ -38,15 +38,9 @@ rm -rf $RPM_BUILD_ROOT
 rm -rf $RPM_BUILD_ROOT
 
 %post
-%if %mdkversion < 200900
-/sbin/ldconfig
-%endif
 %_install_info sidtools.info
 
 %postun
-%if %mdkversion < 200900
-/sbin/ldconfig
-%endif
 %_remove_install_info sidtools.info
 
 %files
