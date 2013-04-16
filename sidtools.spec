@@ -1,6 +1,6 @@
 %define name sidtools
 %define version 1.0.1
-%define release: 11
+%define release: 12
 
 
 Name: %{name}
