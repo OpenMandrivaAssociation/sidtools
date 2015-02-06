@@ -1,7 +1,7 @@
 Name:    sidtools
 Summary: Creates and plays playlists for Sidplay
 Version: 1.0.1
-Release: 13
+Release: 14
 License: GPL
 Group: Sound
 Source: http://user.tninet.se/~uxm165t/%{name}-%{version}.tar.bz2
