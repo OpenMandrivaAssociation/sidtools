@@ -5,7 +5,7 @@ Release: 14
 License: GPL
 Group: Sound
 Source: http://user.tninet.se/~uxm165t/%{name}-%{version}.tar.bz2
-URL: http://user.tninet.se/~uxm165t/sidtools.html
+URL: https://user.tninet.se/~uxm165t/sidtools.html
 Requires: sidplay-base
 
 %description
