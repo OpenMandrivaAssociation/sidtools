@@ -8,6 +8,11 @@ Source: http://user.tninet.se/~uxm165t/%{name}-%{version}.tar.bz2
 URL: https://user.tninet.se/~uxm165t/sidtools.html
 Requires: sidplay-base
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 %description
 A set of tools to create playlists (and play them) for SidPlay.  Lists
 can be created automatically, via the search engine search2list, or
